@@ -1,6 +1,6 @@
 import { ApolloProvider } from "@apollo/client";
 import WordPressProvider from "../src/components/WordPressProvider";
-import { client } from "./api/wordpressClient";
+import { client } from "../pages/api/wordpressClient";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
