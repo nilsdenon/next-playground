@@ -5,8 +5,10 @@ import { SINGLE_PAGE_QUERY } from "./api/queries";
 import styles from "../styles/Home.module.css";
 
 const Home = (page) => {
-  const { title, content } = page;
-  console.log(page.title);
+  //const { title, content } = page;
+
+  //console.log(page);
+
   return (
     <Layout>
       <Head>
@@ -16,7 +18,7 @@ const Home = (page) => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="mb-4 text-3xl">{title}</h1>
+        {/* <h1 className="mb-4 text-3xl">{title}</h1> */}
       </main>
     </Layout>
   );
